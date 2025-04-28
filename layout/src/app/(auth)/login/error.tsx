@@ -2,7 +2,7 @@
 import { useRouter } from "next/navigation";
 import { startTransition } from "react" 
 
-export default function reviewError({error, reset}: {error: Error, reset: () => void} ) {
+export default function ReviewError({error, reset}: {error: Error, reset: () => void} ) {
     const router = useRouter();
 
     // method for server side recovery
